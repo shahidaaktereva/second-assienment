@@ -3,6 +3,7 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/*------- Header part styles ------*/
 .header{
     background: rgba(255, 144, 14, 0.1);
 }
@@ -24,9 +25,6 @@ nav li{
 nav ul{
     display: flex;
     align-items: center;
-}
-.banner{
-
 }
 .banner-title{
     color: #131313;
@@ -60,6 +58,10 @@ nav ul{
     margin: 0px 30px 50px 180px;
     border-radius: 8px;
 }
+
+/*-------- Quick list of Our Features section styles -----*/
+
+
 .first-section{
     display: flex;
     align-items: center;
@@ -99,7 +101,10 @@ nav ul{
     width: 180px;
     height: 64px; 
 }
-/* Some Facts Styles */
+
+/*------- Some Facts section Styles -------*/
+
+
 .Some-Facts-Section{
     margin: 150px 0px;
 }
@@ -149,7 +154,7 @@ nav ul{
 
 
 
-/* Sponspores styles */
+/*------- Sponspores styles --------*/
 
 .Sponspors-title{
     color: #131313;
@@ -170,6 +175,49 @@ nav ul{
 .sponsors-img{
     margin: 50px 70px 50px 170px;
 }
+
+
+/*------ Extra section added styles ------*/
+
+.contact-section{
+    background-color: #f8eee8;
+    margin: 130px 140px;
+    padding: 80px 100px;
+    border-radius: 8px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.contact-item{
+    padding-right: 70px;
+}
+.contact-title{
+    color: rgb(37, 37, 116);
+    font-size: 30px;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 25px;
+    border: 0px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 10px;
+}
+.submit-btn{
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #f0942a;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/*------ Footer section styles ------*/
 .footer-part{
     background: #FFF4E7;
     border-radius: 8px;
